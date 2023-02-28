@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive multipage website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet"> -->
+    <!-- SWIPERJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- ------------------NAVBAR------------------ -->
+    <nav>
+        <div class="nav__container container">
+            <a href="./index.html">
+                <h4>Education</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+     <!-- ------------------HEADER------------------ -->
+    <header>
+        <div class="header__container container">
+            <div class="header__left">
+                <h1>Grow your skills to advance carrer path</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga aliquid ipsum reiciendis culpa et excepturi deleniti necessitatibus quas ducimus? Harum molestiae natus minus suscipit delectus deserunt, ducimus quod voluptas?</p>
+                <a href="./courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image"></div>
+                <img src="./img/headerimg.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------------CATEGORIES------------------ -->
+    <section class="categories">
+        <div class="categories__container container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aspernatur officiis eaque possimus numquam expedita earum, distinctio sit esse repellat facilis voluptatibus ratione nihil doloremque saepe ad ipsa rem id?</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brain"></i></span>
+                    <h5>Category</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus minima aspernatur blanditiis alias.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------COURSES------------------ -->
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="courses__container container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Course Number One</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit saepe optio qui, nihil eveniet quae alias.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Course Number Two</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit saepe optio qui, nihil eveniet quae alias.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Course Number Three</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit saepe optio qui, nihil eveniet quae alias.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ------------------FAQS------------------ -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqs__container container">
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus explicabo hic eos esse illum quod eum. Dolorum enim pariatur, ipsum repellat ullam aliquid, eum minus earum sunt ab quidem!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------TESTIMONIALS------------------ -->
+    <section class="testimonials__container container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Somebody</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, hic! Eaque voluptas corrupti saepe corporis assumenda consequuntur sapiente fuga rem aliquid, eligendi consequatur. Praesentium voluptatem sunt minus laboriosam hic voluptatibus.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Somebody</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, hic! Eaque voluptas corrupti saepe corporis assumenda consequuntur sapiente fuga rem aliquid, eligendi consequatur. Praesentium voluptatem sunt minus laboriosam hic voluptatibus.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Somebody</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, hic! Eaque voluptas corrupti saepe corporis assumenda consequuntur sapiente fuga rem aliquid, eligendi consequatur. Praesentium voluptatem sunt minus laboriosam hic voluptatibus.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Somebody</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, hic! Eaque voluptas corrupti saepe corporis assumenda consequuntur sapiente fuga rem aliquid, eligendi consequatur. Praesentium voluptatem sunt minus laboriosam hic voluptatibus.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/header.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Somebody</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, hic! Eaque voluptas corrupti saepe corporis assumenda consequuntur sapiente fuga rem aliquid, eligendi consequatur. Praesentium voluptatem sunt minus laboriosam hic voluptatibus.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- ------------------FOOTER------------------ -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__1">
+                <a href="./index.html" class="footer__logo"><h4>Education</h4></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequuntur repellendus maiores.</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./courses.html">Courses</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Primacy</h4>
+                <ul class="primacy">
+                    <li><a href="#">Primacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p> +123 45 678 90 90</p>
+                    <p> education@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <small>Copyright &copy; Education</small>
+        </div>
+    </footer>
+
+
+    <!-- <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="./img/logo.png" class="logo-img">
+                <span class="logo-text">RELAX&SPA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Relax&SPA Centers</h1>
+            <p>Восполните баланс сил и энергии, окунитесь в атмосферу комфорта, релакса и наслаждения, <br>расслабьтесь и отдохните от городской суеты.</p>
+            <a class="hero-btn" href="">
+                Заказать звонок
+            </a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>О нас</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minus earum aut adipisci accusantium autem, veniam, illo quibusdam quod dicta nisi sapiente atque iste? Accusantium velit libero sed explicabo eos!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Заголовок</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sint harum ad, consequuntur quam id quas delectus, rerum excepturi ipsa eveniet. Accusantium amet tenetur voluptas quisquam odit, pariatur iste doloremque.</p>
+            </div>
+            <div class="course-col">
+                <h3>Заголовок</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sint harum ad, consequuntur quam id quas delectus, rerum excepturi ipsa eveniet. Accusantium amet tenetur voluptas quisquam odit, pariatur iste doloremque.</p>
+            </div>
+            <div class="course-col">
+                <h3>Заголовок</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sint harum ad, consequuntur quam id quas delectus, rerum excepturi ipsa eveniet. Accusantium amet tenetur voluptas quisquam odit, pariatur iste doloremque.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Заголовок</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod itaque est fugiat. Neque quaerat est, aperiam nesciunt magnam iusto et nihil numquam corrupti saepe officiis ipsum recusandae tenetur impedit.</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = '0';
+        }
+        function hideMenu(){
+            navLinks.style.right = '-500px';
+        }
+    </script> -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      //when window width is >=600px
+      breakpoints:{
+        600:{
+            slidesPerView: 2
+        }
+      }
+    });
+  </script>
+</body>
+</html>
